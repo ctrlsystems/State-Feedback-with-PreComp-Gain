@@ -2,10 +2,8 @@ State-Feedback-with-PreComp-Gain
 ================================
 This entire project helps in understanding the concept of using Classes along with Control System Theory. The first project deals with a linearised system of a Nao Robot Arm. The dynamics is as follows
 
-theta_double_dot = -b*theta   + K*T
-                    -------     ---
-                       J         J
-                       
+theta_double_dot = -b*theta/J   + K*T/J
+
 where :
 
 b, K, J - physical constants, involving inertia, mass 
